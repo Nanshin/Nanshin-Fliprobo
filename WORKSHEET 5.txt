@@ -1,0 +1,27 @@
+ANSWERS TO MACHINE LEARNING WORKSHEET - 5
+1.A
+2.A
+3.A
+4.C
+5.D
+6.A
+7.C
+8.A D
+9.B D
+10. A D
+11.One-hot should be avioded when the column has large values in which case LabelEncoder
+
+12.Random Under-Sampling: attempts to b evenly distribute classes by eliminating majority class examples randomly.
+Random Over-Sampling: attempts to increase the minority class by replicating them randomly such that a higher minority class is represented in the sample
+Cluster-Based Over Sampling: Attempts to oversampled each cluster so that all clusters have the same number of samples and class are the same size.
+Synthetic Minority Over-sampling Technique (SMOTE):Attempts to create new synthetic similar samples from the subset of the data taken from the minority class.
+
+13.SMOTE creates synthetic instances the same as each original minority sample while ADASYN uses generate the each minority sample by adaptively changing the different weights of the different minority samples.
+
+14.The purpose of GridsearchCV is to generate the optimum parameters for the model. It can be used in the case of large datasets.
+
+15.R2-Score: This is an indication of how good the set of predictions fits against the actual values. It's values range from 0 t0 1 where the closer it gets to 1, the more perfect the predictions are to the actual values.
+Mean Squared Error (MSE):This provides a gross average of the magnitude of the error.
+Mean Absolute Error (MAE): This is the average absolute differences between predictions and actual values.
+			Tries to figure out the magnitude of the error i.e the extent of how wrong the predictions were.
+Root Mean Square Error (RMSE): This is similar to MSE but it takes the sqaure root of the mean squared error and the converts it to its original unit
