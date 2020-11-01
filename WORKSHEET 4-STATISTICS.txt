@@ -1,0 +1,41 @@
+1.A
+2.B
+3.A
+4.D
+5.C
+6.A
+7.B
+8.A
+9.A
+10.A Normal distribution is when the data points are almost close to each other 
+	and when this is plot on a graph it results in a symmetrical curve also called the bell curve.
+	This implies that the data points under the curve are almost equal on both left and right sides.
+11.Missing data can be handled in various ways. some of which include;
+	Completely dropping the rows containing those missing data
+	Using the fillna() method
+	Using the Replace() method
+Depending on the nature of data available i recommend the fillna() method where the missing values can 
+either be filled with the mean of the values within that particular column, or with zero, or with the 
+mode of the column in the case of categorical data. 
+12.A/B testing is a statistical method of comparing two versions which can be reffered to as version A 
+	or  version B. First , critical success factors must be established and ten some parameters or 
+	variables applied on the two versions so that their performance can be observed.
+	Business apply this fpr their decision making processes.
+13.Yes. Mean imputation for missing data is an acceptable practice.
+14.Linear Regression in statistics is a model that applies the linear equation y=mx+c to analyze a situation 
+	where the data points are not linear i.e they fall outside of the plotted line. hence the linear regression 
+	tries to calculate the difference from the line to the points which is called errors. the Linear regression 
+	equation then becomes Y = Mx + C + e where M is the slope, x is the independent variable, C is the intercept, 
+	e is the error and Y is the dependent variable.
+15. the two main branches of statistics are Descriptive and Inferential Statistics.Descriptive Statistics can then 
+	be fruther categorised into:
+		Measrues of Central Tendency
+		Measures of Dispersion
+		Measures of Position and 
+		Measures of Frequency
+	Inferential Statistics are further categorised into:
+		Linear Regression
+		Logistic Regression
+		Analysis of Variance 
+		Analysis of Covariance and
+		Statistic Significance (T-Test)
