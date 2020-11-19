@@ -1,0 +1,39 @@
+1.B
+2.B
+3.B
+4.D
+5.C
+6.B
+7.C
+8.A
+9.A C
+10.A B D
+
+11.Compiler reads the source code and outputs executable code
+	while Interpreter converts the source code line-by-line
+	during the RUN time.
+	Compiler translates software written in a higher-level
+	language into instructions that computer can understand
+	while Interpreter completely translates a program written
+	in high-level language into machine-level language
+	Compiler is relatively complicated while Interpreter allows
+	evaluation and modification of the program while it is executing.
+	Compiler spends a lot of time analysing and processing
+	the program while Interpreter spends relatively less time for
+	analyzing and processing the program
+	Compiler has a faster run time than interpreter.
+
+12.The purpose of PYTHONPATH enviroment variable is to direct the users 
+	search path for modules. It guides the operating system to search
+	the directories listed in the variables in response to the query
+	statement.
+
+13.Use the strip() function to remove all leading and trailing spaces in a 
+	string in python. For example; 
+	Nanshin = "	Look out world here comes a great datascientist	  "
+	print(Nanshin) will output;
+	"	Look out world here comes a great datascientist   "
+To remove the spaces,
+	Nanshin.strip() or print(Nanshin.strip())
+	My output will be;
+	"Look out world here comes a great datascientist"

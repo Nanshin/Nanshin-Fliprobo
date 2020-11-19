@@ -1,0 +1,54 @@
+1.D
+2.A
+3.D
+4.A
+5.B
+6.A
+7.D
+8.C
+9.A C D
+10.C D
+
+11.Convex optimisation deals with constraints that have convex 
+	functions. the main objective in this function is that 
+	it turns into a convex function if minimised and a 
+	concave function when maximised. it is often described 
+	 as a smooth surface with a single global minimum.
+	Gradient descent is used to find the optimal parameters
+	of convex objective functions only.
+	Non convex optimisation is a function with multiple minima
+	with one global minima. hence the local minima is not 
+	necessary equal to the global minima because the surfaces 
+	are non-convex in nature. You may never reach the global
+	minima when you apply the gradient descent on the non-convex
+	objective function.
+
+12. Saddle point is the point on the function where there is a flat tangent
+	line and the point on both the x and y axis is zero. It disagrees 
+	whether it is a local minima or a local maxima. Hence the local
+	minima or maxima is uncertain.
+
+13.Classical momentum is the primary means by adding momentum as another 
+	training parameter that scales the effect of momentum. Hence, 
+	training is done with two different parameters which are learning
+	rate and momentum.
+	Nestorov momentum resolves the case of optimisation where velocity
+	is high as a result of the added parameter and so the function may 
+	tend to over shoot the minima. it then minimises the velocity and 
+	mitigates the risk of selecting bad mini-batches so that the expected
+	minima can be attained.
+
+14.Pre initialisation of weights is aimed at using diverse weights and using 
+	weights that have variance in order to resolve the issue of exploding 
+	and vanishing gradient. This process prevents the activation layer
+	outputs from exploding or vanishing during the course of a forward 
+	pass through a deep neural network. Initialization techniques may be
+	He or Xavier initialisation.
+
+15.Internal covariance shift is a phenomenum where the input distribution in the
+	network changes and these change cause the hidden layers to try to adapt
+	to the new distribution, leading to a slow down of the process as well as
+	a longer period of converging to the global miminum. This issue is resolved 
+	with the application of the normalization techniques.
+	
+	

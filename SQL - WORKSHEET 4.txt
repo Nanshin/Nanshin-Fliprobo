@@ -1,0 +1,46 @@
+1.SELECT shippeddate FROM orders WHERE shippeddate = avg,
+	ORDERBY shippeddate;
+2.SELECT avg orderDate
+
+3.SELECT productName FROM products WHERE MSRP=min;
+
+4.SELECT productName FROM products WHERE quantityInStock=max;
+
+5.SELECT productName FROM products JOIN orderdetails ON 
+	products.productCode = orderdetails.productCode
+	WHERE quantityOrdered = max;
+
+6.SELECT customerName FROM customers JOIN payments ON 
+	customers.customerNumber = payments.customerNumber
+	WHERE amount=max;
+
+7.SELECT customerNumber,customerName FROM products WHERE city="Melbourne";
+
+8.SELECT customerName FROM customers WHERE first_name LIKE 'N%';
+
+9.SELECT customerName FROM customers WHERE phone REGEXP '^7.*' AND city="Las Vegas";
+
+10.SELECT customerName FROM customers WHERE creditLimit < 1000 AND city IN (Las Vegas, Nantes, Stavern);
+
+11.SELECT orderNumber FROM orderdetails WHERE quantityOrdered < 10;
+
+12.SELECT orderNumber FROM orders JOIN customers ON 
+	orders.customerNumber = customers.customerNumber
+	WHERE first_name LIKE 'N%';
+
+13.SELECT customerName FROM customers JOIN orders ON 
+	customers.customerNumber = orders.customerNumber
+	WHERE status = "Disputed";
+
+14.SELECT customerName FROM customers JOIN payments ON 
+	customers.customerNumber = payments.customerNumber
+	WHERE checkNumber REGEXP '^H' AND paymentDate = "2004-10-19";
+
+15.SELECT checkNumber FROM payments WHERE amount > 1000;
+
+
+
+
+
+
+
