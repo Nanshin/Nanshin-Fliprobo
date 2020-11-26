@@ -1,0 +1,46 @@
+1.B
+2.C
+3.A
+4.A
+5.D
+6.D
+7.B
+8.D
+9.A
+
+10.Bayes' Theorem is a probability theorem which states that
+	the probability for a condition(unknown) to occur given that
+	another(known) has occured is obtained by multiplying the probability
+	of known condition to occur given that the unknown condition
+	has occured with the probability of the unknown condition
+	and then dividing the resultant product by the probability
+	of the known condition that has occured. 
+	This is a theory for conditonal probabilities.
+
+11. Z-score is a measure of distance of how far above or below the mean any
+	given data point is situated. it tells how many standard deviations
+	away from the mean is a data point. Z-score has a mean of zero and its
+	negative to the left and positive to the right.
+	
+
+12. t-test is a statistical test that can be applied to test null and alternate
+	hypothesis where one continious variable is being considered for the analysis.
+	t-test can be either one-sample (for example analysing if the mean is below or
+	above a certain point) or two-sample (where there is one continious variable 
+	and one categorical variable which has only two classes). 
+
+13. A percentile in statistics indicates the percentage of score that a given 
+	value is higher or greater than. It divides a certain distribution 
+	into two parts either below or above. for example, in a distribution 
+	of company ranking, the company with the 65th percentile
+	ranked better than 65% of the companies ranked.
+
+14. ANOVA means Analysis of Variance, it entails the use of categorical variable to
+	variable to predict a continious variable. it attempts to explain how much 
+	an increase in an event will affect an increase in another event. it is a 
+	study of how much means differ from each other.  It generates and tests the
+	null and alternate hypothesis.
+
+15. ANOVA help to obtain inferences from samples in cases were it is practically
+	impossible to engage every variable in the testing. it reduces the cumbersomeness
+	of computations for large datasets.
